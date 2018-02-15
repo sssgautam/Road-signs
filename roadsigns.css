@@ -1,0 +1,39 @@
+body{
+     width:100%;
+     height:1005;
+     margin:0;
+ }
+h1{
+   align:center;
+   color:#OOOOff;
+   
+}
+
+.container{
+           width:90%;
+           margin:auto;
+           overflow:hidden;
+}
+.items{
+        width:30%;
+        display:block;
+        padding;4px; 
+        margin-bottom:10px;
+        float:left;
+        line-height:1.42857143;
+        background-color:#fff;
+        border:1px solid #ddd;
+}
+
+function playItHere(e, link){
+  var audio = document.createElement("audio");
+  var src = document.createElement("source");
+  src.src = link.href;
+  audio.appendChild("src");
+  e.preventDefault(); 
+ }
+.thumbnail{
+          display:block;
+          max-width:100%;
+          height:auto;
+}
